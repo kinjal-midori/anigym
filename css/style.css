@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('/img/img1.jpg') ;
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+.left{
+    border: 1px solid gray;
+    border-radius: 20px 20px 5px 5px;
+    display: inline-block;
+    position: absolute;
+    top:25px;    
+    left: 69px;
+    background-color: black;
+    padding: 10px;
+}
+.left img{
+    width: 121px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    line-height:0;
+    font-size: 25px;
+    padding: 10px;
+}
+.center{
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: block;
+    width: 40%;
+    margin: 35px auto;
+    background-color: black;
+    padding: 10px ;
+    text-align: center;
+}
+.nav-bar li{
+    display: inline-block;
+    font-size: 24px;
+}
+.nav-bar li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 40px;
+}
+.nav-bar li a:hover{
+    color: rgb(129, 129, 129);
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    top:47px;
+    right: 69px;
+}
+.btn{
+    margin: 0 9px;
+    color: white;
+    background-color: black;
+    padding: 6px 14px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+.btn:hover{
+    background-color: rgb(49, 49, 49);
+}
+.container{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    width: 25%;
+    margin: 67px 5px;
+    padding: 57px 61px;
+}
+.container h1{
+    text-align: center;
+}
+.fr1{
+    margin: 50px auto 0;
+}
+.fr1 button{
+    display: block;
+    margin: 50px auto 0;
+}
+.fr1 input{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    font-size: 18px;
+    font-family: 'Alata', sans-serif;
+    padding: 4px;
+    width: 382px;
+}
